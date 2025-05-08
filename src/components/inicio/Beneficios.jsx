@@ -24,7 +24,7 @@ export default function Beneficios() {
 
   return (
     <section className="text-center py-10">
-      <h3 className="text-2xl font-bold text-blue-900 mb-6">¿Por qué usar la plataforma?</h3>
+      <h3 className="text-2xl font-bold text-[#0b3b60] mb-6">¿Por qué usar la plataforma?</h3>
       <div className="flex justify-center gap-10 flex-wrap">
         {beneficios.map((b, i) => (
           <div key={i} className="w-64 text-center">

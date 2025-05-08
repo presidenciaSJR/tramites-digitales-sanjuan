@@ -10,7 +10,7 @@ export default function Buscador() {
 
   return (
     <section className="bg-white rounded-xl shadow-lg p-6 my-6 max-w-5xl mx-auto text-center">
-      <h3 className="font-sans text-2xl font-bold text-blue-900 mb-4">Buscador de Trámites.</h3>
+      <h3 className="font-sans text-2xl font-bold text-[#0b3b60] mb-4">Buscador de Trámites.</h3>
       <div className="flex justify-center items-center gap-2">
         <input
           type="text"
@@ -21,7 +21,7 @@ export default function Buscador() {
         />
         <button
           onClick={handleBuscar}
-          className="bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-800"
+          className="bg-[#0b3b60] text-white px-6 py-2 rounded-full hover:bg-blue-800"
         >
           Buscar... 
         </button>
