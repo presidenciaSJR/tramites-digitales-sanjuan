@@ -3,7 +3,6 @@ import Banner from "@/components/inicio/Banner"
 import Buscador from "@/components/inicio/Buscador";
 import Beneficios from "@/components/inicio/Beneficios";
 import Tutoriales from "@/components/inicio/Tutoriales";
-import ServiciosGrid from "@/components/inicio/Secciones"
 
 export default function HomePage() {
   return (
@@ -11,7 +10,6 @@ export default function HomePage() {
       <Header />
       <Banner />
       <Buscador />
-      <ServiciosGrid />
       <Beneficios />
       <Tutoriales />
 

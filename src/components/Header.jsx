@@ -1,14 +1,24 @@
-// components/Header.jsx
 "use client";
-import { FaUserCircle } from "react-icons/fa";
+import Logo from "./Logo";
+import UserButton from "./UserButton";
+import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-blue-900 text-white p-6">
-      <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold">LOGO</h1>
-        <FaUserCircle size={30} />
+    <header className="bg-blue-950 text-white p-4">
+      <div className="flex justify-between items-center max-w-7xl mx-auto">
+        {/* Logo - Redirige a Home */}
+        <Link href="/" className="flex items-center">
+          <Logo />
+        </Link>
+
+        {/* Botón de Usuario */}
+        <Link href="/login">
+          <UserButton />
+        </Link>
       </div>
     </header>
   );
 }
+
+
